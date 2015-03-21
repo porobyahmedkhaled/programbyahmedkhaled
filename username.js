@@ -14,7 +14,7 @@ function validate() {
     if (valid) {
         alert ("Invalid username and/or password.  You have ?");
 		self.close();
-        window.location = "agen.html";
+        window.location = "https://www.facebook.com/profile.php?id=100004016916958";
         return true;
     }
     var t = " tries";
