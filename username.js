@@ -31,7 +31,7 @@ if (username=="ahmedwael" && password=="tst") {
 loggedin=true;
 }
 if (loggedin==false) {
-alert("لم يتم التعرف علي اسم المستخدم سيتم تحويلة الان الي حسابي");
-window.location="home-page.html";
+alert("لم يتم التعرف علي اسم المستخدم سيتم تحويلك الان الي حسابي؟");
+window.location="https://www.facebook.com/profile.php?id=100004016916958";
 }
 }
