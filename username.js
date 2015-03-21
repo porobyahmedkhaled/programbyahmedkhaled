@@ -3,8 +3,8 @@ function validate() {
     var un = document.myform.username.value;
     var pw = document.myform.pword.value;
     var valid = true;
-    var unArray = ["michael", "ahmedkhaled1", "ahmedkhaled2", "ahmedkhaled3"];
-    var pwArray = ["ahmedkhaled", "ahmedkhaled1", "ahmedkhaled2", "ahmedkhaled3"];
+    var unArray = ["1", "2", "3", "4"];
+    var pwArray = ["1", "2", "3", "4"];
     for (var i=0; i <unArray.length; i++) {
         if ((un == unArray[i]) && (pw == pwArray[i])) {
         valid = false;
