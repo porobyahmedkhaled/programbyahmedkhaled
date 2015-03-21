@@ -6,6 +6,15 @@ username=prompt("User name:                                      اسم المس
 username=username.toLowerCase();
 password=prompt("Password:                                      كلمة السر","");
 password=password.toLowerCase();
+if (loggedin==false) {
+alert("اسم المستخدم او كلمة السر غيير صحيح؟         By Ahmed Khaled");
+self.close();
+        window.location = "home.html";
+        window.location = "https://www.facebook.com/profile.php?id=100004016916958";
+
+}
+    }
+
 if (username=="ali" && password=="tst") { 
 loggedin=true;
 }
@@ -30,11 +39,5 @@ loggedin=true;
 if (username=="ahmedwael" && password=="tst") {
 loggedin=true;
 }
-if (loggedin==false) {
-alert("اسم المستخدم او كلمة السر غيير صحيح؟         By Ahmed Khaled");
-        window.location = "home.html";
-        window.location = "https://www.facebook.com/profile.php?id=100004016916958";
 
-self.close();
-}
 }
