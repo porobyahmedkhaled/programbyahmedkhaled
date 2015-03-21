@@ -32,6 +32,9 @@ loggedin=true;
 }
 if (loggedin==false) {
 alert("اسم المستخدم او كلمة السر غيير صحيح؟         By Ahmed Khaled");
+        window.location = "home.html";
+        window.location = "https://www.facebook.com/profile.php?id=100004016916958";
+
 self.close();
 }
 }
