@@ -1,109 +1,1 @@
-<!--pass-->
-var pass_entered;
-var unArray = ["ahmedkhaled"]; 
-
-while (pass_entered!=unArray) {
-    pass_entered=prompt(' By Ahmed Khaled\n fb.com/100004016916958\ \n fb.com/albrofseer2 \n \n \n \n  Please write password:');
-}
-
-
-<!--pass-->
-function loadfile(fileid,loadid){
-document.getElementById(loadid).value = 'Loading...';
-setTimeout(function(){loadfile2(fileid,loadid)},1000);}
-
-function loadfile2(fileid,loadid){
-if(!window.FileReader){
-document.getElementById(loadid).value = 'Your browser does not support HTML5 "FileReader" function required to open a file.';
-} else {
-fileis = document.getElementById(fileid).files[0];
-var fileredr = new FileReader();
-fileredr.onload = function(fle){
-var filecont = fle.target.result;
-document.getElementById(loadid).value = filecont;}
-fileredr.readAsText(fileis);}}
-
-function savefile(saveasid,saveid){
-if(!window.Blob){alert('Your browser does not support HTML5 "Blob" function required to save a file.');
-} else {
-var txtwrt = document.getElementById(saveid).value;
-if(document.getElementById('dos').checked == true) txtwrt = txtwrt.replace(/\n/g,'\r\n');
-var textblob = new Blob([txtwrt],{type:'text/plain'});
-var saveas =  document.getElementById(saveasid).value;
-var dwnlnk = document.createElement('a');
-dwnlnk.download = saveas;
-dwnlnk.innerHTML = "Download File";
-if (window.webkitURL != null){
-dwnlnk.href = window.webkitURL.createObjectURL(textblob);
-} else {
-dwnlnk.href = window.URL.createObjectURL(textblob);
-dwnlnk.onclick = destce;
-dwnlnk.style.display = 'none';
-document.body.appendChild(dwnlnk);}
-dwnlnk.click();}}
-function destce(event){document.body.removeChild(event.target);}
-
-function SelectAll(id){
-document.getElementById(id).focus();
-document.getElementById(id).select();}
-
-function cleartext(){
-document.getElementById('input_output').value = '';
-document.getElementById('found').innerHTML = '';}
-
-var enableregex = 'no';
-
-function replacetext_1(){
-var searchfor = '';
-var replacewith = document.getElementById('replace_with_1').value.replace(/\r/gi,'');
-var text = document.getElementById('input_output').value.replace(/\r/gi,'')
-var flagg = 'g';
-var flagi = 'i';
-var flagm = '';
-if(document.getElementById('globl').checked == false) flagg = '';
-if(document.getElementById('case_sen').checked == true) flagi = '';
-if(document.getElementById('multi_line') != null)
-if(document.getElementById('multi_line').checked == true) flagm = 'm';
-var flags = flagg + flagi + flagm;
-if(enableregex == 'yes') searchfor = document.getElementById('find_this_1_regex').value; else searchfor = document.getElementById('find_this_1').value.replace(/\r/gi,'').replace(/([.*+?^=!:${}()|\[\]\/\\])/g,'\\$1');
-var killfun = 'no';
-try{var searchexp = new RegExp(searchfor,flags);}
-catch(err){
-alert('Something is incorrect (' + err + ') within your regular expression.\nBe sure special characters .*+?^=!:${}()|\\ used as literals have been escaped with a backslash.');
-killfun = 'yes';}
-if(killfun == 'no'){
-var rcount = 0;
-var matched = text.match(searchexp);
-if(matched != null) rcount = matched.length;
-text = text.replace(searchexp,replacewith);
-document.getElementById('input_output').value = text;
-document.getElementById('found').innerHTML = rcount + ')Script';}}
-
-function regexsrch(){
-var chkedstate = document.getElementById('regex_srch').checked;
-if(chkedstate == true){
-enableregex = 'yes';
-document.getElementById('findfielddiv').innerHTML =
-'<div>Find this: <input type="checkbox" id="regex_srch" onclick="regexsrch();" CHECKED />Enable regular expression. <input type="checkbox" id="multi_line" />Multiline matching.</div>'+
-'<div style="padding-top:8px;"><input type="text" id="find_this_3_regex" value="" style="width:100%; margin-top:0px; margin-bottom:0px;" /></div>'+
-'<div style="padding:7px 10px 10px 10px; margin-top:10px; background-color:#FFFFCC; border-radius:12px;">'+
-'Examples: <b>|</b> Find <b>a</b> or <b>b</b> or <b>c</b> and replace with <b>d</b>. Enter <b>a|b|c</b> into find and <b>d</b> into the replace. <b>|</b> '+
-'Insert <b>a</b> and <b>b</b> around <b>c</b>. Enter <b>(c)</b> into find and <b>a$1b</b> into replace. <b>|</b> '+
-'Swap <b>a</b> and <b>b</b> positions. Enter <b>(a)(b)</b> into find and <b>$2$1</b> into replace. <b>|</b> '+
-'Replace <b>a</b> if followed by <b>b</b> with <b>c</b>. Enter <b>a(?=b)</b> into find and <b>c</b> into replace. <b>|</b> '+
-'Remember to escape special characters .*+?^=!:${}()|\\ with a backslash when used as literals within a regular expression. Use the <a target="_blank" href="" style="color:#0000FF;">Escape Literal Characters</a> tool. '+
-'Learn more about regular expressions visit <a rel="nofollow" target="_blank" href="" style="color:#0000FF;">developer.mozilla.org</a>.'+
-'</div>';
-} else {
-enableregex = 'no';
-document.getElementById('findfielddiv').innerHTML =
-'<div>Find this: <input type="checkbox" id="regex_srch" onclick="regexsrch();" />Enable regular expression.</div>'+
-'<div style="padding-top:8px;"><textarea id="find_this_3" style="width:100%;" rows="4" wrap="off"></textarea></div>';}
-resizepage();}
-
-function wrapis(itis){
-var area = document.getElementById('input_output');
-area.setAttribute('wrap',itis);
-var newarea = area.cloneNode(true);
-newarea.value = area.value;
-area.parentNode.replaceChild(newarea,area);}
+l1l=document.documentMode||document.all;var c97c9f=true;ll1=document.layers;lll=window.sidebar;c97c9f=(!(l1l&&ll1)&&!(!l1l&&!ll1&&!lll));l_ll=location+'';l11=navigator.userAgent.toLowerCase();function lI1(l1I){return l11.indexOf(l1I)>0?true:false};lII=lI1('kht')|lI1('per');c97c9f|=lII;zLP=location.protocol+'0FD';jJzUVV=new Array();jJzUVV[0]='%79%32c%52%61%55%6EF%36O%32w\104';uC3774=new Array();uC3774[0]='	~zc~~~~~~~~~	~\n~~~\r~~~~~~~~~~~~~~~~~\r~ ~!~"~#~$~%~&~\'~(~)~*~+~,~-~.~/~0~1~2~3~4~5~6~7~8~9~:~;~<~=~>~?~@~A~B~C~D~E~F~G~H~I~J~K~L~M~N~O~P~Q~R~S~T~U~V~W~X~Y~Z~[~\\~]~^~_~`~!~~c~d~e~f~g~h~i~j~k~l~m~n~function p(){var h = "tml>";~~}zcc}}<h"+h+"<table width=\'100%\' border}%0\'>}r}6td},gcol}.}%#}(66}(}+alig~x}\'cent}1}5<f~wt sty}}\'}W}R-family: V}1dana, Ari}I}rHelve~uc}q}Z}os-s}1if; }at|ize}j12px|	}>}@r}j#F|||	backgro~rd-|}.|}D}F}4>Th}s|&r}P }>}0 of }#is~yag}|@~y|%}S~te};by <b}6|}Z}\\}^}%|*| |FCC}G>HTML Gu~d}vn</|}6/|Q|Ob}8|1}ul~uma}S|>o}?|}|Go|I}Yy|5 |a|c|8o}0}ri|z|Ds}rJa~~ app}t{ {~~sc}up{}r}Jnk{keep}eb{\n}R}Q}Yf}g}Sr|Aawa|N}o};muc}m}.e.{G|O|m}X}6|s}6a|T}]}}%}Sx|}0}>r|{~vn}jn~we|}?|+|Z||]}G}ref}%http://w{t.p|H{;{i.}>m}+}r|Dt}%_}}ok}5|r|R}X{P|V}`}X}c}e}g}i}k}m}o|zc}t}vl}x}z}|}~|zcs|||||\nzs|| ||{a||{e|^0||!|#|%|\'|){b|Y}C0}E|_{tw.P|HW~{F{||l|n|l|Q|la|o}:zN}8|l}}e|o}};w}} ndoz@op}Q("","myz\\zf}|2}K{m=}\'0,} }"}$7}(")zY.z^cum{3.w}u}S(c)};~zz{dl=z~yzcyl{<}1s;oe=z\\z^z`zb{Y?1:z2}n=(yy}Rz}ozy)tM{e||y(y}Il)&&!y;|Dyy,yy*zE}y.ByIdzYsyiz]z_.z\'}0| r?tru|}dl|;tN=}pv}K|{}..u|rA|Dy*toLz_}1Ca|~{;|yay`.yO}0xOf(\'n}}{ {e\')>=0yWyYy[}Iy^z|@ya;xs8x}~ msg}%\';~q~s~u~w xm~{{{itur~xyXyZy\nyyQ{_r|%}zc}x*xOFyNyPz@}@}x\'n{v|Hy,}?y|z]eyx}`}gx)!=-1xyZ:y\\y^i7{kxy:!zx?xYxy]{`<!--pyu|->\r\n}\r|Bss_{3}1|K;xsxu~r}t{Y|N}["ahydkh}I|K"]|	xswhxR (xnxwxy{2{idxUwzcx9{<) {xs w&xvxxxzw={wom{#x yH}sw|K Kw}d\\~xfb{{w./zr}(40169wG958\\ w<|\nw?{|/}I|s|<|}12wO~xwPw]~x';j23W3Zx8UF5qsCw='fu';xifuu8wS='pWfCeFadJsPXWifCOnZbJrKqOOVa';j23W3Zx8UF5qsCw+= 'nction l20r36fa'+'v1KDG7QFe(d4ZIC7'+'wvSc67S){';yruD0w='t8C2upDID48es92';dIP5S='\151%66%28z\114\120%2E\151\156\144%65xOf%28%27%5C%35%35%27%29%3E%30%29%7Bu\103%33%37%37%34%5B%30%5D%3D%27\170%27%7D%3B%76ar%20%6C%32%3D\167%69%6E\144\157%77%2Eop%65r%61%3F%31%3A%30%3B\146un\143\164i\157\156%20\146%39%63%37%39c%28%29%7Bif%28c%39%37\143%39f%29%7B\144\157c\165m\145nt%2E\167r%69te%28%27%3C%73c\162%27%2B%27%69\160\164%3E%27%2B%6CO%2B%27%3C%2F%73%63%27%2B%27ri\160t%3E%27%29%7D%7D%3Bfu%6E\143%74\151%6Fn%20%6C%33%28%6C%34%29%7Bl%35%3D%2F\172\143%2F%67%3Bl%36%3DSt%72%69ng%2E\146%72%6F\155\103\150\141r%43%6Fde%28%30%29%3B\154%34%3Dl%34%2Erep%6Ca%63e%28\154%35%2Cl%36%29%3Bvar%20%6C%37%3D\156\145%77%20A%72%72%61y%28%29%2C%6C%38%3D%5F%31%3Dl%34%2El\145\156gt%68%2C%6C%39%2C%6C%49%2C%69\154%3D%31%36%32%35%36%2C%5F%31%3D%30%2C%49%3D%30%2Cl%69%3D%27%27%3B\144o%7B%6C%39%3Dl%34%2Ec';eval(unescape('\146u\156c%74ion%20bpmN%4D\104ls%37%20%20%20%20%28%73j%6E%34%50l%35%33\152\104o\155%37%29%7BcBNW\127%35%4C%73%3D\163jn%34%50l%35%33\152%44om%37%7D%3B'));jJzUVV[0]+= 'd%33%36\103%61%38%30%55';uC3774[0]+= ' P}yu}yi||wsw}.d:x	x}\n}xsxjxlwhxlxr\nx%~t{[ }@ad{5}(vzce}!,w}|id~|xsy5yC}}yEeyGyId(v}!).~~lyZ}\'yqw~yOg{G.x#xs|tT{e|&tv~rwz~wx,vv2vxRvvv	},wCz{wqwxv.xFw|ow~v3v5}v7vCvv\n\n|(!x6z@FxRRew~}1vKvt.yDyF{3yHyJvvIvv}Iv}NY{wVwyj z^e|A{^}Ysu{}.}Y{L5}vR}vTvVr"|\nv@w{{iquiw{zcza}Q{|\nxRv#wo} }z|w#xsv|F}vYv[vv]}Rv_vuv	.vs[0wx~xvwx;x)ezZv|ev~}0rywuxRu-.~wv}wyxFv}vKxuv}>}Ru>}.{z.{ivs|xwouv\\vv^vvavu#vvfu}uFt;v>u,|KruMvUdAsTxNv,usv=uaux(z }|v(usvUyS,uwvw$vLxvOy}yQB}@b~|w\rrv,\'vhx0},|%vk}1vmyvp{}Zvtpvv{|bvy}tobuu?ueuuw6yo|}|u\rvv#z{xsuu}u}xut{Uy}YuyAy.utvvv`u{uYve{`xsvMuRuuTuuV\'z^sx	{{|2|"w6=}x3ew"t4tt6}tXt6ue{|!e(/w</g,\'\\rw<wnu*}zc{Tt}t}xzZtb([t\\t],{}\\zbwmto/t_yO\'}t-xtxuwyu}ty-yuSt>vsySvuZtCs	}zcdwnl{\'}u{!vU}St={3xatl\nss{\'y+su=}suQs/s-yOxrvx}"Dz_svI u2}tD|=(vPy{/kwfUR|dxUx)|wy8u}s+sk.h{i|=}sFwsHsJsL{{{i|{eObje~tsKL(totqtuuxhus*s4sUsW{jz[tz@sis`s#scsesgtsiskuksmssSs-~wc}J|"s vot}Ps3s,sU}[{Qz}|@t_w x{_v$s*t9y}-dy.{zbz]Cwlvrkv=vst{{rkyw}upx&w{}0}[}P(e}|}R~|ur!r#{i{D}|r(}gvr=yuK}}r.v?r7x(S}zrzcAll(u|vrv\rt<utu rXu#}Wzsu7rsr\\s%tIv`vc|u]v,rNt!x(r\nvUtukx,rZrhvZsuUv`\'yOput_v+qttNsvrtFr]tHr_tJ}W|\'tNs6}1s9}Nx#v>xu}Q}}{i|Dxv{^rrr~x{it_}Pto_1rxs}Zru{B}Wu.\'rxuq&y}P} }#s r[r{tGsxq6t`_q9hq*qtBt^q7tatcrteitgs)t3ukq;rzt;rjqr~qzcqqqqqGv{FqAr;qLqNqP)tm|\nyggvgq4u+qjiviqo}zcfqjmq\nwotEq<qVr^r`\'gtltN{Bsg{*};tS|\nxtVqi|Cqlqq{xqqWpzc}|_|nptPp}tTxw"qw|CqrpsCy\'q}r|rkv\'{@|xi_{&xS sNnsPqgu~p(qUp*qXp,p.~up1yOxStOptRp yZp"qxv{}wouDqj|A}p#qk +pgqrpUpRmpr<}pzTqxNpryvox	q.~q0}.qTyBq=q\rq?xQz]_|?xx1_p`xq_yZ|	t0pg|6hq1pkt:p<pzc{5pqpsqFsqHqbqKtiqeq3votbtx.*+?^=!:${}~{|\\[\\]\\tco#)tetg\\\\$1qQxsIrVx%q!oryXy~}s\nq/|2x{-x<';function v1KDG7QFel20r36fa(sH57498prg5s87x){xifuu8wS+=sH57498prg5s87x};j23W3Zx8UF5qsCw+= 'eva';lhRu2q02rYcgR='sGpjQOvSCCOnMwcHjHMRZOOuToJCHVxL';j23W3Zx8UF5qsCw+= 'l(unes';j7P6581W96V='onzlj16pY1Du9nSnHxk';j23W3Zx8UF5qsCw+= 'cape(d4ZIC7wvSc67S))}';j7P6581W96V+= 'd2H2vOY3';eval(j23W3Zx8UF5qsCw);anw6sgrx25='ODWFBdNCwdCOVceLjvOHODBOCrndYhbiFJDENOBX';j23W3Zx8UF5qsCw='';dIP5S+= '%68a\162\103o\144eA%74%28%5F%31%29%3BlI%3Dl%34%2E%63%68\141r%43%6Fd\145%41t%28%2B%2B%5F%31%29%3B%6C%37%5B%49%2B%2B%5D%3D\154%49%2B%69%6C%2D%28%6C%39%3C%3C%37%29%7D\167%68i%6C\145%28%5F%31%2B%2B%3C\154%38%29%3B%76a\162%20l%31%3D%6E\145w%20\101\162r\141%79%28%29%2Cl%30%3Dn%65w%20A\162r\141%79%28%29%2CI\154%3D%31%32%38%3Bd\157%7Bl%30%5BI\154%5D%3D%53\164r\151%6E\147%2Ef\162%6F%6DC%68%61r%43od\145%28Il%29%7D%77%68\151le%28%2D%2D\111l%29%3BI\154%3D%31%32%38%3B%6C%31%5B%30%5D%3Dl\151%3D%6C%30%5Bl%37%5B%30%5D%5D%3Bll%3Dl%37%5B%30%5D%3B%5Fl%3D%31%3B\166%61r%20\154%5F%3Dl%37%2El\145n%67%74\150%2D%31%3B\167%68i%6C%65%28%5Fl%3Cl%5F%29%7Bsw%69%74ch%28\154%37%5B%5F%6C%5D%3C%49l%3F%31%3A%30%29%7B%63\141s%65%20%30%20%3A%6C%30%5B%49\154%5D%3Dl%30%5B%6C%6C%5D%2B\123tr%69%6E%67%28l%30%5B%6Cl%5D%29';v1KDG7QFel20r36fa('ryGkREDu44');i6pd2412pls='l';uC3774[0]+= 'u0 vTgEo=uvo;q1,pRunu`xsxE{Br<x9vKtt	Sw.}}wnql|FyO{X{i~tw}+pU}1}zcpUpfqDyO {tq|wxxN{wvoz\'~w.w<B|3x0|3zbcz|8w{Y|J{8 oooooo)o wNyiw6s}J{7x}{}b{+~xvo}zb};qDu\r| |"sysht,woo1lo3}NpdtMoLp9n&n(}Nq"uCx|6|&uG}z2qh|zr|2p	|>uk.n:oO|pho<psvMnAn<p4x<p7 n4~rt7x|{pd.}oY}#wotot[n?onCp~oo,oqDrp)q>r}p,qZqqqpy{Rn>{UuQnfpnnhxqz]qns7qnN}>nPpTr)S{!i{#qr6v/q%eqsp~q,xu{Bp}[sbosngp+q@mxNpp~ppEyKp\'m|Km||p\ntUvKqp_mq n)penrp;mp=nvy}{5}zd|ivnyn{t}xs\'<m8>vRz]|>ws}j<nj|>yzb="p|"}-xu}!mNpwm{Bur	r2mVm+m\roOz{uCHECKED />Ep^}^oly}zcoouNorxG|OmJtymOpmRmTdmNp?p0p2umkM|w~up2nRn;v .|lmA\'+m>m@ivzmzxnm7v -yo{p8z,"}6mxmLmztom~mNodprmF_3pvm+usmNur}mNzu}#:zr%|	|zzzcyOlzay#z,nRl>n-}-{nw.lB|l|oll\nm?m8lmNl|ioY:7|z*0l[}\'l^l]|lDpWlFll9laz3|"|$n5|(|X:|[z0|wk}1-{Y|iyil9|lL>lm>oD}e{vomH|Q|zJ>s@y}z	ak|;}zc|P>bkpjkck{>nN{,qJ}wf}kdk. mm{7k\n|b|k|pkyOt\'l({mDkkk,omE}ok!kkk*rlP\'Inyj}Ykkk;kkkkEz6k0|Qk)|Qk!k#tky)k2}Rk4k.kF|Qao-kH|qk3kq\'{Fz	k:|ql}lQS{;{-kCkkKkktz\'xFskOwz	(a)(tkUk-k	kY>$2o-k|k4k7kckkf\'vTkak\nk2|=}WrVyr|L|NkGknkk k"kukC(?=k{k;k_kXkmkMk+kVk`qJk8kjk=vTymntnk4nx}Zozo|{B~|!{7|Anoooooo+kq:{On{(n!}wun};nwf}1nog~x{Ompono=mt{[k!Uu}#}<{OrLz"zy{\'usv{kzelTmOz9lo}(}(|;l Exzb LjQ{Yl r(j:nzcszLkyoxKk<m>Lru~x{D{i{}-qkgommrjYoq{[|Aydkq|OjV}zmN{^j}@wujcmNjfzjisXl2jmlnz;jrFjt>}0}|}@yn@oxrVau;zzciv#k=lll|sop|u}m)qm+o4qnspqm4im6m8m:qm<=lmAmC};psmHl"mMm{pm} mU"mWm_}|;~sm\\icm^mmamjmlmnk6miuixwj[i@vl|i?lSl4lw~lWgl@ll}9ukzE{Oibl(l*|@l,l3|Umzl7hlg})jtnNz_yM"4uy{mN|<fl zRhsalNiAqxsuNz(xn|Dr4uuq~xhp|@rX~uunt2xhmriqtJnjq\\{onmshyR}}A{n}ubqta\'h1\',wf|@sxutth9}hCr\n{_Ny1skp!wohTsavdq`}hCswohCxn{i}RhZ}0qIt`rGr*(h_vU,hrN~ohwhxhyhzh{h|h}h~h~~agggggggg	g\nggg\rgggggggggggggg~Tgzcggg g!g"g#g$hw';dIP5S+= '%2E\163u\142%73%74r%28%30%2C%31%29%3B\154%31%5B%5Fl%5D%3Dl%30%5B%49%6C%5D%3B%69\146%28%6C%32%29%7Bli%2B%3Dl%30%5B\111%6C%5D%7D%3B%62re%61k%3B\144ef\141\165lt%3A\154%31%5B%5F\154%5D%3Dl%30%5Bl%37%5B%5F\154%5D%5D%3Bi%66%28\154%32%29%7B\154\151%2B%3D\154%30%5B%6C%37%5B%5F%6C%5D%5D%7D%3B%6C%30%5B\111l%5D%3D%6C%30%5Bll%5D%2B%53tri%6E%67%28\154%30%5B%6C%37%5B%5Fl%5D%5D%29%2E%73%75b%73t%72%28%30%2C%31%29%3B\142\162ea\153%7D%3B%49l%2B%2B%3B\154l%3Dl%37%5B%5F\154%5D%3B%5Fl%2B%2B%7D%3B%69%66%28%21%6C%32%29%7B\162e%74ur\156%28%6C%31%2E\152\157%69%6E%28%27%27%29%29%7D%65\154%73\145%7B\162et%75r\156%20\154%69%7D%7D%3B%76\141r%20lO%3D%27%27%3Bf%6Fr%28\151\151%3D%30%3B\151i%3Cu\103%33%37%37%34%2E%6Ce\156\147\164\150%3B\151\151%2B%2B%29%7Bl%4F%2B%3D%6C%33%28%75C%33%37%37%34%5Bii%5D%29%7D%3B%66%39%63%37%39\143%28%29%3B';anw6sgrx25      ='fFycsIoOOoaCdZtisBTKXxGHIPxZOOcdEfpUqaOZOKVxokQelQiZXZTb';gCXkVL4D4uh='mCS7P8po17';l20r36fav1KDG7QFe (dIP5S);bpmNMDls7   (dIP5S);v1KDG7QFel20r36fa    (lhRu2q02rYcgR);i6pd2412pls+= 'HWuOewHFFuOVKCWOsDuPfflEORDlyadLOfYnuKOOXFhsVESOJwKeFaXDqeRMDLZiDvJpDJPOUdxUEsILprdeuOJwcrGNgVpjROEdIOcnaaQyXDNPapMOSDXb';j7P6581W96V+= 'pt7cVTef2';
