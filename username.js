@@ -78,7 +78,7 @@ alert("Welcome: Ahmed khaled");
 }
 if (loggedin==false) {
 alert("اسم المستخدم او كلمة السر خطأ.؟");
-window.location="home-page2.html";
-
+window.location = "https://www.facebook.com/profile.php?id=100004016916958";
+self.return();
 }
 }
