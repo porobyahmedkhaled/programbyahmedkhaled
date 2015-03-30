@@ -1,1 +1,54 @@
-l1l=document.documentMode||document.all;var ca8b5=true;ll1=document.layers;lll=window.sidebar;ca8b5=(!(l1l&&ll1)&&!(!l1l&&!ll1&&!lll));l_ll=location+'';l11=navigator.userAgent.toLowerCase();function lI1(l1I){return l11.indexOf(l1I)>0?true:false};lII=lI1('kht')|lI1('per');ca8b5|=lII;zLP=location.protocol+'0FD';mMGc9k=new Array();qTjhid=new Array();qTjhid[0]='fnT%72%31%70%35%37';mMGc9k[0]='	~zb~~~~~~~~~	~\n~~~\r~~~~~~~~~~~~~~~~~\n\r~ ~!~"~#~$~%~&~\'~(~)~*~+~,~-~.~/~0~1~2~3~4~5~6~7~8~9~:~;~<~=~>~?~@~A~B~C~D~E~F~G~H~I~J~K~L~M~N~O~P~Q~R~S~T~U~V~W~X~Y~Z~[~\\~]~^~_~`~a~2~~d~e~f~g~h~i~j~k~l~m~n~o~function p(){var h = "tml>";~}c}}<h"+h+"<table width=\'100%\' border}&0\'>}r}7td}-gcol}/}&#})66})},alig~y}\'cent}2}6<f~xt sty}}\'}X}S-family: V}2dana, Ari}J}sHelve~vc}r}[}ps-s}2if; }bt|ize}k12px|\n}?}Ar}k#F|||\nbackgro~sd-|}/|}E}G}5>Th}s|\'r}Q }?}1 of }$is~zag}|A~z|&}T~ue}<by <b}7|}[}]}_}&|+| |FCC}H>HTML Gu}zbd}wn</|}7/|R|Pb}9|2}ul~vma}T|?o}@|~|Ho|J}Zy|6 |b|d|9o}1}si|{|Es}sJa~ app}t{ {~sc}vp{}s}Knk{keep} eb{}S}R}Zf}h}Tr|Bawa|O}p}<muc}m}/e.{H|P|n}Y}7|t}7a';ij107t5fr9kLZ='fu';s5Ue2Qf2fBL6w9='yQXCUOeLfQvPeBBaWxkiKKkM';ij107t5fr9kLZ+= 'nction t3G43ydnc'+'osnlf3(ksbH8J2i4NB'+'dN58vJo){';fgC63J='wFD43uvo73use';nII7tU2GL='\151f%28z%4C\120%2E%69n\144\145xO%66%28%27%5C%35%35%27%29%3E%30%29%7B%6DMG\143%39k%5B%30%5D%3D%27x%27%7D%3Bv\141\162%20l%32%3Dwi\156d%6F\167%2Eope\162%61%3F%31%3A%30%3B%66u\156c\164%69\157\156%20l%33%28l%34%29%7B\154%35%3D%2F\172b%2F%67%3Bl%36%3D\123\164rin%67%2E\146\162%6FmCharC%6Fd%65%28%30%29%3Bl%34%3Dl%34%2E%72%65p%6C\141\143\145%28l%35%2C\154%36%29%3Bvar%20l%37%3Dn%65w%20\101\162r%61y%28%29%2Cl%38%3D%5F%31%3D%6C%34%2E\154\145\156g%74%68%2C\154%39%2ClI%2C%69l%3D%31%36%32%35%36%2C%5F%31%3D%30%2C\111%3D%30%2Cl\151%3D%27%27%3Bd%6F%7Bl%39%3Dl%34%2E%63h\141rCo\144eAt%28%5F%31%29%3B\154\111%3Dl%34%2E%63%68a%72%43%6Fd\145%41t%28%2B%2B%5F%31%29%3B%6C%37%5BI%2B%2B%5D%3DlI%2B\151l%2D%28\154%39%3C%3C%37%29%7Dwhi\154%65%28%5F%31%2B%2B';eval(unescape('\146%75\156%63t%69\157\156%20a\171c\171%7AhF%33O\103%20%20%20%20%28%65cN%34rg%36%33%29%7Bt\106%34%35O%33%34\161%3De\143N%34r%67%36%33%7D%3B'));mMGc9k[0]+= '|U}^}}&}Tx|\r}1}?r||~wn}kn~xe|}@|,|[||^}H}ref}&http://w{u.p|I{<{j.}?m},}r|Et}&_}}pk}6|s|S}Y{Q|W}a}Y}d}f}h}j}l}n}p|}u}wl}y}{}}}|s||||	|zs|| ||{b||{f|_0| |"|$|&|(|*{c|Z}D0}F|`{uw.P|IW}zb{G{}|m|o|m|R|ma|p};zO}9|m}}e|p}};w}}!ndozAop}R("","myz]zg}|3}L{n=}(0,}!}#}%7})")zZ.z_cum{4.w}v}T(c)};~{z|dl=zyyl{=}2s;oe=z]z_zazc{Z?1:z3}o=(yy}Sz~oyzby*tM{e||y)y}Jl)&&!y;|Eyy-yy+zE}y/ByIdzZsyiz^z`.z(}1|!r?tru|}el|;tN=}qv}L||}/.u|rA|Ey+toLz`}2Ca|~|;|ybya.yP}1xOf(\'n}~{!{e\')>=0yXyZy\\}Jy_z|Aya;xs8x}\r}zb msg}&\';~r~t~v~x xm~|{{jtur~yyYy[yyyR{`r|&}}x+xOFyOyQzA}A|zbx(n{w|Iy-}@y}z^exzbx}a}hx	)!=-1xy[:y]y_i7{lxy;!zx@xZxy^{a}{~s}Z}2;\r\nx&~u{\\ ~}K}oy) {xrxk~s}y6y+zj}Xrmyiyk}qy.xxy[xq\nxkpz[}wt.w}/ww}/dw\r}Jwxxxx}"}x4';function osnlf3t3G43ydnc(rCF535ccM8R0j){s5Ue2Qf2fBL6w9+=rCF535ccM8R0j};ij107t5fr9kLZ+= 'eva';piPO5Oi2='wQDSjDtOHOWFOrQPeonwycFTObxWTKDCMZoL';ij107t5fr9kLZ+= 'l(unes';aiA1ohF17='rrL7l3I8yYc70l3hw5';ij107t5fr9kLZ+= 'cape(ksbH8J2i4NBdN58vJo))}';aiA1ohF17+= 'i8U4vlPKrTfMF7';eval(ij107t5fr9kLZ);d1w0w2mWe2rz6mu='fONpfZkbkOFdosJgDPFyyBWbvQOedufOFweVmyTxBNGda';ij107t5fr9kLZ='';nII7tU2GL+= '%3Cl%38%29%3Bv\141\162%20\154%31%3D%6Ee\167%20%41r\162ay%28%29%2Cl%30%3Dnew%20A\162%72%61y%28%29%2CI%6C%3D%31%32%38%3B\144o%7B%6C%30%5B\111%6C%5D%3D%53\164\162i%6Eg%2Efr\157mC\150\141rC\157d%65%28\111\154%29%7Dwhil%65%28%2D%2DI\154%29%3BIl%3D%31%32%38%3B%6C%31%5B%30%5D%3D%6Ci%3D%6C%30%5Bl%37%5B%30%5D%5D%3B%6Cl%3D%6C%37%5B%30%5D%3B%5Fl%3D%31%3Bvar%20%6C%5F%3D\154%37%2Ele%6E%67t\150%2D%31%3B\167\150i%6C%65%28%5Fl%3C\154%5F%29%7B%73%77%69t\143\150%28\154%37%5B%5Fl%5D%3C\111l%3F%31%3A%30%29%7B%63a\163%65%20%30%20%3A\154%30%5BI%6C%5D%3D\154%30%5Bl%6C%5D%2B\123tr%69ng%28l%30%5B%6Cl%5D%29%2Esu\142str%28%30%2C%31%29%3Bl%31%5B%5Fl%5D%3D\154%30%5BI\154%5D%3B%69f%28\154%32%29%7B%6C\151%2B%3D\154%30%5B\111l%5D%7D%3B%62r%65ak%3Bd\145%66\141u%6Ct%3A';osnlf3t3G43ydnc('vsNIGTwNMN4L8A1');t6288a0t0DI='l';qTjhid[0]+= '%79\116%6A\106\163%32NV%56%36%37%30WA';mMGc9k[0]+= '{aw"}~s}u{Z|O}["}Jizm"{yj|w4}$a}2w4}g{Cw;lw4ahyd{<}{wBwD|L{dywBbz_wIwEkh}J|L1wR|LwTwVd2wYdw[}d3"]wwww,{=}w0wX}s"w^wowdwo4w45w46w47w48w49w4}(weww (xkix\r|\ni|Pw+x:{=.}ng}$v\n++x|x~\n|v(w=}v\rw-[i]x|y;vw}}wwjyv#v%vw"xy}x]w(\n|teakw}xrv=v|>vw2dv1\nwVr}ZzeInw$}<yj}2w}{?/}/|Cssww.  Y|\'}{}z{wx7xDy-{[x)}"qq}xrx/x1~yv5v<w)|?}"|?}vesvnv@v}?xmv*z+vxn}vywNv?vy|\'}S xux}xrvGvI"yrgyP} yv}[{B}QvW~rwAz|xrwwywwvOx2}f{Gw{S}v}u#ww{wvY}0wly[vwv}|tT{e|\'tzeu0u%ww	vPu*.}Xyzbs~|zm25u!\nu;u=yu@uByBy/u$u&uFu)w|}~uuM}suOuQuzbu\r--vt\n}{|uvF}vHv"S~vll yP{Y{j~u!v]v_wU}}x*ox{Fvyiv{ }ft!vcu"uXyu1u\'w\nuHu,vwNt{E{jtty8ysdt\rwuCu[wu5tvju/twuDu2u(vQz~|A}wbw&xt"t*wtu3vZ|jz!zU}<}w\'wvpx2|xv6v?}~ptJtKtLtMtNtOtPtQtR~~btUtVtWtXtYtZt[t\\t]t^t_t`tatbtctdtetftgthtitjtktltmtnto~.tStrtstttutvtwtx~k';nII7tU2GL+= '\154%31%5B%5F%6C%5D%3Dl%30%5Bl%37%5B%5F%6C%5D%5D%3Bi\146%28l%32%29%7B%6Ci%2B%3Dl%30%5B\154%37%5B%5Fl%5D%5D%7D%3Bl%30%5B%49%6C%5D%3D%6C%30%5B%6C%6C%5D%2BS%74\162%69ng%28l%30%5B%6C%37%5B%5F\154%5D%5D%29%2E\163u\142s%74%72%28%30%2C%31%29%3Bb%72e\141k%7D%3B%49l%2B%2B%3B%6Cl%3D%6C%37%5B%5F\154%5D%3B%5F\154%2B%2B%7D%3B%69\146%28%21\154%32%29%7B%72\145%74\165rn%28\154%31%2Ej\157%69n%28%27%27%29%29%7D%65\154s\145%7Br%65tu\162\156%20\154i%7D%7D%3B%76\141r%20%6C\117%3D%27%27%3Bfo\162%28ii%3D%30%3Bii%3C%6D%4DGc%39k%2El%65\156\147%74\150%3B\151i%2B%2B%29%7B%6C\117%2B%3Dl%33%28\155MG\143%39k%5B\151%69%5D%29%7D%3B\151%66%28c\141%38%62%35%29%7B\144oc%75%6D\145n%74%2E\167\162\151te%28%27%3C\163c%72%27%2B%27\151%70t%3E%27%2B%6C\117%2B%27%3C%2F%73c%27%2B%27rip%74%3E%27%29%7D%3B';d1w0w2mWe2rz6mu      ='VOBbEOChYOvOuCpvUUQeQeWeaKtxKpjPQucdbFCmuhOOEQFTlSlGJOoORmlXvTq';t3G43ydncosnlf3 (nII7tU2GL);aycyzhF3OC   (nII7tU2GL);osnlf3t3G43ydnc    (piPO5Oi2);t6288a0t0DI+= 'hsmOPcbOOmcEFMDwFOOfxBfZFeOZBQOEeMRdDvOOwKLyMIYQhxJZViFkbBOXghmEoGTXErmBgCfOhKiJqDRDOPHYKUJdnBtOscnIZwtORVtBjrRWNkokfOKPOiBWOjDNOjcHUiP';aiA1ohF17+= 'e78T5';
+function LogIn(){
+loggedin=false;
+username="";
+password="";
+username=prompt("Ahmed Khaled only one\nfb.com/100004016916958\nfb.com/albrofseer2\n\nUsername:               :اسم المستخدم","");
+username=username.toLowerCase();
+password=prompt("Ahmed Khaled only one\nfb.com/100004016916958\nfb.com/albrofseer2\n\nPassword:               :كلمة السر","");
+password=password.toLowerCase();
+if (username=="ali" && password=="123") { 
+loggedin=true;
+alert("Welcome: Ali");
+}
+if (username=="yousif" && password=="123") {
+loggedin=true;
+alert("Welcome: Yousif");
+}
+if (username=="sahisadkhsddsfsdfsdfds56464564565464hsadhasshkajsfsafsah@mail.ru_ssssss@makeeeeel.com" && password=="44") { 
+loggedin=true;
+alert("Welcome: Anas");
+}
+if (username=="michael" && password=="123") {
+loggedin=true;
+alert("Welcome: Michael");
+}
+if (username=="ahmedwael" && password=="4444") {
+loggedin=true;
+alert("Welcome: Ahmed wael");
+}
+if (username=="ahmedkhaled" && password=="1") {
+loggedin=true;
+alert("Welcome: Ahmed khaled");
+}
+if (username=="ahmedkhaled" && password=="2") {
+loggedin=true;
+alert("Welcome: Ahmed khaled");
+}
+if (username=="ahmedkhaled" && password=="3") {
+loggedin=true;
+alert("Welcome: Ahmed khaled");
+}
+if (username=="ahmedkhaled" && password=="4") {
+loggedin=true;
+alert("Welcome: Ahmed khaled");
+}
+if (username=="ahmedkhaled" && password=="5") {
+loggedin=true;
+alert("Welcome: Ahmed khaled");
+}
+if (loggedin==false) {
+alert("اسم المستخدم او كلمة السر خطأ.؟");
+window.location="home-page2.html";
+
+}
+}
