@@ -16,11 +16,27 @@ alert("Welcome: Yousif");
 }
 if (username=="sahisadkhsddsfsdfsdfds56464564565464hsadhasshkajsfsafsah@mail.ru_ssssss@makeeeeel.com" && password=="44") { 
 loggedin=true;
-alert("Welcome: Anas");
+alert("Welcome: ");
 }
-if (username=="elgoker" && password=="77") {
+if (username=="elgoker" && password=="123") {
 loggedin=true;
 alert("Welcome: Goker");
+}
+if (username=="alialhrare" && password=="123") {
+loggedin=true;
+alert("Welcome: Ali Alhrare");
+}
+if (username=="aqeel" && password=="123") {
+loggedin=true;
+alert("Welcome: Aqeel Abdulsada");
+}
+if (username=="ahmedsayed" && password=="123") {
+loggedin=true;
+alert("Welcome: Ahmed Sayed");
+}
+if (username=="ilyes" && password=="123") {
+loggedin=true;
+alert("Welcome: Ilyes Mzabi");
 }
 if (username=="michael" && password=="123") {
 loggedin=true;
@@ -30,6 +46,8 @@ if (username=="ahmedwael" && password=="4444") {
 loggedin=true;
 alert("Welcome: Ahmed wael");
 }
+
+
 if (username=="ahmedkhaled" && password=="1") {
 loggedin=true;
 alert("Welcome: Ahmed khaled");
