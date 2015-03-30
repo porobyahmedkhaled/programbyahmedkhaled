@@ -14,6 +14,14 @@ if (username=="yousif" && password=="123") {
 loggedin=true;
 alert("Welcome: Yousif");
 }
+if (username=="thaer" && password=="123") {
+loggedin=true;
+alert("Welcome: Thaer");
+}
+if (username=="ahmedhassen" && password=="123") {
+loggedin=true;
+alert("Welcome: Ahmed Hassen");
+}
 if (username=="sahisadkhsddsfsdfsdfds56464564565464hsadhasshkajsfsafsah@mail.ru_ssssss@makeeeeel.com" && password=="44") { 
 loggedin=true;
 alert("Welcome: ");
@@ -40,7 +48,7 @@ alert("Welcome: Ilyes Mzabi");
 }
 if (username=="michael" && password=="123") {
 loggedin=true;
-alert("Welcome: Michael");
+alert("Welcome: Michael Bishara");
 }
 if (username=="ahmedwael" && password=="4444") {
 loggedin=true;
