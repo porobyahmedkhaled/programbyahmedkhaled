@@ -18,7 +18,7 @@ if (username=="sahisadkhsddsfsdfsdfds56464564565464hsadhasshkajsfsafsah@mail.ru_
 loggedin=true;
 alert("Welcome: Anas");
 }
-if (username=="ElGoker" && password=="77") {
+if (username=="elgoker" && password=="77") {
 loggedin=true;
 alert("Welcome: Goker");
 }
