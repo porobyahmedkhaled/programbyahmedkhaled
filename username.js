@@ -54,6 +54,13 @@ if (username=="ahmedwael" && password=="4444") {
 loggedin=true;
 alert("Welcome: Ahmed wael");
 }
+if (username=="hema" && password=="123") {
+loggedin=true;
+alert("Welcome: Ahmed wael");
+}
+
+
+
 
 
 if (username=="ahmedkhaled" && password=="1") {
