@@ -7,11 +7,11 @@ username=username.toLowerCase();
 password=prompt("Ahmed Khaled only one\nfb.com/100004016916958\nfb.com/albrofseer2\n\nPassword:               :كلمة السر","");
 password=password.toLowerCase();
 <!--اعضاء جدد--!>
-if (username=="ahmedkhaled" && password=="1") {
+if (username=="1" && password=="1") {
 loggedin=true;
 alert("Welcome: Ahmed khaled");
 }
-if (username=="ahmedkhaled" && password=="2") {
+if (username=="z" && password=="z") {
 loggedin=true;
 alert("Welcome: Ahmed khaled");
 }
