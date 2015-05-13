@@ -1,3 +1,0 @@
-|-------id-------|user|pass|
-|HWID: BFEBFBFF000006FD|test|123|
-|1|2|3|
